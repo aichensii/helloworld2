@@ -1,50 +1,1631 @@
+
 <!DOCTYPE html>
-<html lang="es">
+<html lang="ro">
 <head>
-  <title>Facilo.es - Tu coche, fácil</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <style>
-    body, h1, h2, h3, h4, h5, h6 {
-      font-family: "Segoe UI", Arial, sans-serif;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghidul Complet al Școlilor din Marbella și Estepona pentru Familiile de Expatriați</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .gradient-bg { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+        .card-shadow { box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); }
+        .section-divider { border-top: 3px solid #e5e7eb; margin: 2rem 0; }
+        .cta-gradient { background: linear-gradient(135deg, #10b981 0%, #059669 100%); }
+        .pulse-animation { animation: pulse 2s infinite; }
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+    </style>
 </head>
-<body>
+<body class="bg-gray-50 text-gray-800">
+    
+    <!-- Header -->
+    <header class="gradient-bg text-white py-16">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-5xl font-bold mb-4">Ghidul Complet al Școlilor din Marbella și Estepona</h1>
+            <p class="text-xl opacity-90">Pentru Familiile de Expatriați</p>
+            <div class="mt-8 flex justify-center space-x-8 text-sm">
+                <div class="flex items-center">
+                    <i class="fas fa-graduation-cap mr-2"></i>
+                    <span>Toate Opțiunile Educaționale</span>
+                </div>
+                <div class="flex items-center">
+                    <i class="fas fa-euro-sign mr-2"></i>
+                    <span>Informații despre Taxe</span>
+                </div>
+                <div class="flex items-center">
+                    <i class="fas fa-clipboard-list mr-2"></i>
+                    <span>Proces de Admitere</span>
+                </div>
+            </div>
+        </div>
+    </header>
 
-<!-- Header -->
-<header class="w3-container w3-center w3-padding-32 w3-red">
-  <h1 class="w3-xxxlarge">Bienvenido a Facilo.es</h1>
-  <p class="w3-large">La forma más sencilla de encontrar el coche de tus sueños</p>
-</header>
-
-<!-- Main Content -->
-<div class="w3-container w3-content w3-padding-64" style="max-width:800px">
-  
-  <!-- Car Image -->
-  <div class="w3-card-4 w3-margin">
-    <img src="img_car.jpg" alt="Coche de lujo" style="width:100%">
-    <div class="w3-container w3-center">
-      <p>Calidad y confianza en cada vehículo.</p>
+    <!-- CTA Expert Principal -->
+    <div class="bg-white border-l-4 border-green-500 p-6 mx-6 -mt-8 relative z-10 rounded-lg card-shadow">
+        <div class="flex items-center justify-between flex-wrap gap-4">
+            <div class="flex items-center">
+                <div class="bg-green-100 rounded-full p-3 mr-4">
+                    <i class="fas fa-user-tie text-green-600 text-xl"></i>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-800">Consultanță Personalizată pentru Mutarea în Marbella</h3>
+                    <p class="text-sm text-gray-600">Andi Vasluianu - Expert Real Marbella Estate vă ajută cu alegerea școlii și relocarea</p>
+                </div>
+            </div>
+            <div class="flex flex-col sm:flex-row gap-3">
+                <a href="https://cal.com/andi-vee/business-consultation" target="_blank" class="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-lg font-medium transition-colors duration-200 text-center">
+                    <i class="fas fa-calendar-alt mr-2"></i>Programează Consultația
+                </a>
+                <a href="https://wa.me/34642912879" target="_blank" class="bg-green-500 hover:bg-green-600 text-white px-6 py-2 rounded-lg font-medium transition-colors duration-200 text-center">
+                    <i class="fab fa-whatsapp mr-2"></i>+34 642 912 879
+                </a>
+            </div>
+        </div>
     </div>
-  </div>
 
-  <!-- About Section -->
-  <div class="w3-container w3-padding-32">
-    <h2 class="w3-center">Sobre Nosotros</h2>
-    <p>En Facilo.es, nos dedicamos a hacer que el proceso de compra y venta de coches sea lo más simple y transparente posible. Conectamos a compradores y vendedores de forma segura y eficiente.</p>
-    <div class="w3-center w3-padding-top-32">
-      <a href="#" class="w3-button w3-red w3-ripple w3-padding-large w3-round-large">Ver Coches Disponibles</a>
+    <div class="container mx-auto px-6 py-12 max-w-6xl">
+        
+        <!-- Cuprins -->
+        <div class="bg-white rounded-lg card-shadow p-8 mb-12">
+            <h2 class="text-3xl font-bold text-gray-800 mb-6 flex items-center">
+                <i class="fas fa-list-ul mr-3 text-blue-600"></i>
+                Cuprins
+            </h2>
+            <div class="grid md:grid-cols-2 gap-4">
+                <div class="space-y-2">
+                    <a href="#overview" class="block text-blue-600 hover:text-blue-800 font-medium">1. Prezentare Generală a Sistemului Educațional</a>
+                    <a href="#international-schools" class="block text-blue-600 hover:text-blue-800 font-medium">2. Școli Internaționale</a>
+                    <a href="#public-schools" class="block text-blue-600 hover:text-blue-800 font-medium">3. Școli Publice Spaniole</a>
+                    <a href="#private-schools" class="block text-blue-600 hover:text-blue-800 font-medium">4. Școli Private și Bilingve</a>
+                </div>
+                <div class="space-y-2">
+                    <a href="#costs" class="block text-blue-600 hover:text-blue-800 font-medium">5. Costuri și Taxe Școlare</a>
+                    <a href="#admission" class="block text-blue-600 hover:text-blue-800 font-medium">6. Procesul de Admitere</a>
+                    <a href="#practical-tips" class="block text-blue-600 hover:text-blue-800 font-medium">7. Sfaturi Practice pentru Părinți</a>
+                    <a href="#contacts" class="block text-blue-600 hover:text-blue-800 font-medium">8. Contacte și Resurse Utile</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Prezentare Generală -->
+        <section id="overview" class="mb-16">
+            <h2 class="text-4xl font-bold text-gray-800 mb-8 flex items-center">
+                <i class="fas fa-info-circle mr-3 text-blue-600"></i>
+                Prezentare Generală a Sistemului Educațional
+            </h2>
+            
+            <div class="grid lg:grid-cols-3 gap-8 mb-12">
+                <div class="bg-white rounded-lg card-shadow p-6">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-globe text-blue-600 text-2xl mr-3"></i>
+                        <h3 class="text-xl font-semibold">Școli Internaționale</h3>
+                    </div>
+                    <p class="text-gray-600 mb-4">Curriculum britanic, american sau internațional. Ideale pentru familiile care plănuiesc să se întoarcă în țara de origine sau să se mute în alte țări.</p>
+                    <div class="text-sm text-gray-500">
+                        <div class="flex justify-between mb-1">
+                            <span>Vârsta:</span>
+                            <span>2-18 ani</span>
+                        </div>
+                        <div class="flex justify-between mb-1">
+                            <span>Limba:</span>
+                            <span>Engleza (principal)</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span>Cost anual:</span>
+                            <span>€5,000-€20,000+</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-lg card-shadow p-6">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-flag text-red-600 text-2xl mr-3"></i>
+                        <h3 class="text-xl font-semibold">Școli Publice Spaniole</h3>
+                    </div>
+                    <p class="text-gray-600 mb-4">Sistem educațional spaniol gratuit. Multe școli oferă programe bilingve sau de sprijin pentru elevii străini.</p>
+                    <div class="text-sm text-gray-500">
+                        <div class="flex justify-between mb-1">
+                            <span>Vârsta:</span>
+                            <span>3-18 ani</span>
+                        </div>
+                        <div class="flex justify-between mb-1">
+                            <span>Limba:</span>
+                            <span>Spaniola</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span>Cost anual:</span>
+                            <span>Gratuit</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-lg card-shadow p-6">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-users text-green-600 text-2xl mr-3"></i>
+                        <h3 class="text-xl font-semibold">Școli Private Bilingve</h3>
+                    </div>
+                    <p class="text-gray-600 mb-4">Combinație între curriculum spaniol și străin. Oferă educație bilingvă cu taxe moderate.</p>
+                    <div class="text-sm text-gray-500">
+                        <div class="flex justify-between mb-1">
+                            <span>Vârsta:</span>
+                            <span>3-18 ani</span>
+                        </div>
+                        <div class="flex justify-between mb-1">
+                            <span>Limba:</span>
+                            <span>Spaniola + Engleza</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span>Cost anual:</span>
+                            <span>€3,000-€8,000</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-lg mb-8">
+                <h4 class="font-semibold text-blue-800 mb-2 flex items-center">
+                    <i class="fas fa-lightbulb mr-2"></i>
+                    Sfat Important
+                </h4>
+                <p class="text-blue-700">Zona Marbella-Estepona oferă una dintre cele mai mari varietăți de școli internaționale din Spania, fiind o destinație preferată de familiile expatriate din întreaga lume.</p>
+            </div>
+
+            <!-- CTA după overview -->
+            <div class="cta-gradient text-white rounded-lg p-6 text-center">
+                <h4 class="text-xl font-bold mb-3">Ai nevoie de ajutor pentru a alege școala potrivită?</h4>
+                <p class="mb-4 opacity-90">Cu experiența mea în relocarea familiilor în Marbella și Estepona, te pot ghida către cea mai bună opțiune educațională pentru copilul tău.</p>
+                <div class="flex flex-col sm:flex-row gap-3 justify-center">
+                    <a href="https://cal.com/andi-vee/business-consultation" target="_blank" class="bg-white text-green-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200">
+                        <i class="fas fa-video mr-2"></i>Consultație Online Gratuită
+                    </a>
+                    <a href="https://wa.me/34642912879" target="_blank" class="bg-green-800 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-900 transition-colors duration-200">
+                        <i class="fab fa-whatsapp mr-2"></i>WhatsApp Direct
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Școli Internaționale -->
+        <section id="international-schools" class="mb-16">
+            <h2 class="text-4xl font-bold text-gray-800 mb-8 flex items-center">
+                <i class="fas fa-globe-americas mr-3 text-blue-600"></i>
+                Școli Internaționale
+            </h2>
+
+            <!-- The International School Estepona -->
+            <div class="bg-white rounded-lg card-shadow p-8 mb-8">
+                <div class="flex items-start justify-between mb-6">
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2">The International School Estepona</h3>
+                        <p class="text-gray-600 flex items-center">
+                            <i class="fas fa-map-marker-alt mr-2 text-red-500"></i>
+                            El Paraiso, Estepona (New Golden Mile)
+                        </p>
+                    </div>
+                    <div class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">
+                        Curriculum Britanic
+                    </div>
+                </div>
+
+                <div class="grid lg:grid-cols-2 gap-8">
+                    <div>
+                        <h4 class="font-semibold text-lg mb-3 text-gray-800">Informații Generale</h4>
+                        <ul class="space-y-2 text-gray-700">
+                            <li><strong>Vârsta elevilor:</strong> 2-12 ani</li>
+                            <li><strong>Anul înființării:</strong> 2004 (peste 20 de ani de experiență)</li>
+                            <li><strong>Certificare:</strong> Licențiată de Junta de Andalucía</li>
+                            <li><strong>Suprafața:</strong> 3,700 m² în complex securizat</li>
+                            <li><strong>Specialitate:</strong> Școală primară și nursery britanică</li>
+                        </ul>
+                        
+                        <h4 class="font-semibold text-lg mb-3 mt-6 text-gray-800">Facilități</h4>
+                        <div class="grid grid-cols-2 gap-2 text-sm text-gray-600">
+                            <div class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Clădire modernă</div>
+                            <div class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Aer condiționat</div>
+                            <div class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Table interactive</div>
+                            <div class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Laborator IT</div>
+                            <div class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Grădină cu iarbă</div>
+                            <div class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Teren sport</div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h4 class="font-semibold text-lg mb-3 text-gray-800">Taxe Școlare 2024/2025</h4>
+                        <div class="bg-gray-50 rounded-lg p-4 mb-4">
+                            <div class="space-y-2">
+                                <div class="flex justify-between">
+                                    <span>Taxa de înscriere (o singură dată):</span>
+                                    <span class="font-semibold">€975</span>
+                                </div>
+                                <div class="flex justify-between">
+                                    <span>Taxa per trimestru:</span>
+                                    <span class="font-semibold">€4,680</span>
+                                </div>
+                                <div class="border-t pt-2 flex justify-between text-lg">
+                                    <span class="font-semibold">Total primul an:</span>
+                                    <span class="font-bold text-blue-600">€15,015</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <h4 class="font-semibold text-lg mb-3 text-gray-800">Avantaje</h4>
+                        <ul class="space-y-2 text-gray-700 text-sm">
+                            <li>• Clase mici pentru atenție personalizată</li>
+                            <li>• Mediu multicultural și prietenos</li>
+                            <li>• Tranziție ușoară către alte școli britanice</li>
+                            <li>• Program Summer School și Holiday Clubs</li>
+                            <li>• Părere excelentă de la părinți</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="mt-6 p-4 bg-green-50 rounded-lg">
+                    <p class="text-green-800 text-sm"><strong>Contact:</strong> Tel: +34 952 88 47 89 | Website: marbellaschool.com</p>
+                </div>
+            </div>
+
+            <!-- The British International School of Marbella -->
+            <div class="bg-white rounded-lg card-shadow p-8 mb-8">
+                <div class="flex items-start justify-between mb-6">
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2">The British International School of Marbella (BISM)</h3>
+                        <p class="text-gray-600 flex items-center">
+                            <i class="fas fa-map-marker-alt mr-2 text-red-500"></i>
+                            Marbella
+                        </p>
+                    </div>
+                    <div class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">
+                        Curriculum Britanic
+                    </div>
+                </div>
+
+                <div class="grid lg:grid-cols-2 gap-8">
+                    <div>
+                        <h4 class="font-semibold text-lg mb-3 text-gray-800">Informații Generale</h4>
+                        <ul class="space-y-2 text-gray-700">
+                            <li><strong>Vârsta elevilor:</strong> 2-12 ani (Early Years - Secondary)</li>
+                            <li><strong>Parte din:</strong> The British Schools Foundation (BSF)</li>
+                            <li><strong>Experiență:</strong> Peste 20 de ani în educația internațională</li>
+                            <li><strong>Tip:</strong> Organizație non-profit din UK</li>
+                        </ul>
+                        
+                        <h4 class="font-semibold text-lg mb-3 mt-6 text-gray-800">Caracteristici</h4>
+                        <ul class="space-y-2 text-gray-700 text-sm">
+                            <li>• Educație britanică contemporană</li>
+                            <li>• Standarde înalte de predare</li>
+                            <li>• Mediu internațional</li>
+                            <li>• Dezvoltare completă a copilului</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h4 class="font-semibold text-lg mb-3 text-gray-800">Contact și Admitere</h4>
+                        <div class="bg-gray-50 rounded-lg p-4">
+                            <p class="text-gray-700 mb-2"><strong>Telefon:</strong> +34 952 779 264</p>
+                            <p class="text-gray-700 mb-2"><strong>Website:</strong> bsm.org.es</p>
+                            <p class="text-sm text-gray-600">Contactați pentru o vizită individuală sau pentru a vorbi cu echipa de admitere.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Swans International School -->
+            <div class="bg-white rounded-lg card-shadow p-8 mb-8">
+                <div class="flex items-start justify-between mb-6">
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2">Swans International School</h3>
+                        <p class="text-gray-600 flex items-center">
+                            <i class="fas fa-map-marker-alt mr-2 text-red-500"></i>
+                            Marbella (Multiple campusuri)
+                        </p>
+                    </div>
+                    <div class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">
+                        Curriculum Britanic
+                    </div>
+                </div>
+
+                <div class="grid lg:grid-cols-2 gap-8">
+                    <div>
+                        <h4 class="font-semibold text-lg mb-3 text-gray-800">Informații Generale</h4>
+                        <ul class="space-y-2 text-gray-700">
+                            <li><strong>Vârsta elevilor:</strong> 3-17 ani</li>
+                            <li><strong>Anul înființării:</strong> 1971</li>
+                            <li><strong>Program:</strong> GCSE și A-Levels</li>
+                            <li><strong>Tip:</strong> Educație bilingvă (Britanic + Spaniol)</li>
+                        </ul>
+                        
+                        <h4 class="font-semibold text-lg mb-3 mt-6 text-gray-800">Curriculum</h4>
+                        <ul class="space-y-2 text-gray-700 text-sm">
+                            <li>• Curriculum național britanic</li>
+                            <li>• GCSE în anii 10 și 11</li>
+                            <li>• A-Levels pentru Sixth Form</li>
+                            <li>• Tehnologie modernă în predare</li>
+                            <li>• Valori tradiționale + inovație</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h4 class="font-semibold text-lg mb-3 text-gray-800">Programe pe Vârste</h4>
+                        <div class="space-y-3">
+                            <div class="bg-gray-50 rounded p-3">
+                                <div class="font-medium text-gray-800">Primary School (3-11 ani)</div>
+                                <div class="text-sm text-gray-600">Curriculum britanic de primară</div>
+                            </div>
+                            <div class="bg-gray-50 rounded p-3">
+                                <div class="font-medium text-gray-800">Secondary School (11-16 ani)</div>
+                                <div class="text-sm text-gray-600">GCSE curriculum complet</div>
+                            </div>
+                            <div class="bg-gray-50 rounded p-3">
+                                <div class="font-medium text-gray-800">Sixth Form (16-17 ani)</div>
+                                <div class="text-sm text-gray-600">A-Levels și pregătire universitară</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="mt-6 p-4 bg-green-50 rounded-lg">
+                    <p class="text-green-800 text-sm"><strong>Contact:</strong> Website: swansschool.com</p>
+                </div>
+            </div>
+
+            <!-- Alte Școli Internaționale -->
+            <div class="bg-white rounded-lg card-shadow p-8 mb-8">
+                <h3 class="text-2xl font-bold text-gray-800 mb-6">Alte Școli Internaționale Importante</h3>
+                
+                <div class="grid lg:grid-cols-2 gap-8">
+                    <!-- Aloha College -->
+                    <div class="border rounded-lg p-6">
+                        <h4 class="text-xl font-semibold mb-3 text-gray-800">Aloha College</h4>
+                        <div class="space-y-2 text-sm text-gray-700">
+                            <div><strong>Locația:</strong> Marbella</div>
+                            <div><strong>Vârsta:</strong> 3-18 ani</div>
+                            <div><strong>Curriculum:</strong> Britanic (IGCSE, A-Levels)</div>
+                            <div><strong>Experiență:</strong> Peste 35 de ani</div>
+                            <div><strong>Caracteristici:</strong> Școală de top pe Costa del Sol</div>
+                        </div>
+                    </div>
+
+                    <!-- German School -->
+                    <div class="border rounded-lg p-6">
+                        <h4 class="text-xl font-semibold mb-3 text-gray-800">Deutsche Schule Malaga</h4>
+                        <div class="space-y-2 text-sm text-gray-700">
+                            <div><strong>Locația:</strong> Malaga (accesibilă din Marbella)</div>
+                            <div><strong>Vârsta:</strong> 3-18 ani</div>
+                            <div><strong>Curriculum:</strong> German</div>
+                            <div><strong>Limba:</strong> Germană</div>
+                            <div><strong>Ideal pentru:</strong> Familiile germanofone</div>
+                        </div>
+                    </div>
+
+                    <!-- French School -->
+                    <div class="border rounded-lg p-6">
+                        <h4 class="text-xl font-semibold mb-3 text-gray-800">École Française Internationale Marbella</h4>
+                        <div class="space-y-2 text-sm text-gray-700">
+                            <div><strong>Locația:</strong> Marbella</div>
+                            <div><strong>Vârsta:</strong> 3-11 ani</div>
+                            <div><strong>Curriculum:</strong> Francez</div>
+                            <div><strong>Limba:</strong> Franceză</div>
+                            <div><strong>Ideal pentru:</strong> Familiile francofone</div>
+                        </div>
+                    </div>
+
+                    <!-- Lycée Français -->
+                    <div class="border rounded-lg p-6">
+                        <h4 class="text-xl font-semibold mb-3 text-gray-800">Lycée Français International Malaga</h4>
+                        <div class="space-y-2 text-sm text-gray-700">
+                            <div><strong>Locația:</strong> Malaga</div>
+                            <div><strong>Curriculum:</strong> Francez complet</div>
+                            <div><strong>Limba:</strong> Franceză</div>
+                            <div><strong>Program:</strong> Până la Bacalaureat</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CTA după școlile internaționale -->
+            <div class="bg-blue-50 border border-blue-200 rounded-lg p-6">
+                <div class="flex items-center justify-between flex-wrap gap-4">
+                    <div class="flex items-center">
+                        <div class="bg-blue-100 rounded-full p-3 mr-4">
+                            <i class="fas fa-school text-blue-600 text-xl"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-lg font-semibold text-blue-800">Vizitează școlile împreună cu un expert local</h4>
+                            <p class="text-sm text-blue-600">Te însoțesc la vizitele școlare și te ajut să pui întrebările corecte</p>
+                        </div>
+                    </div>
+                    <a href="https://wa.me/34642912879?text=Salut%20Andi,%20as%20vrea%20ajutor%20cu%20alegerea%20scolii%20pentru%20copilul%20meu" target="_blank" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg font-medium transition-colors duration-200">
+                        <i class="fab fa-whatsapp mr-2"></i>Contactează-mă
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Școli Publice Spaniole -->
+        <section id="public-schools" class="mb-16">
+            <h2 class="text-4xl font-bold text-gray-800 mb-8 flex items-center">
+                <i class="fas fa-flag mr-3 text-red-600"></i>
+                Școli Publice Spaniole
+            </h2>
+
+            <div class="bg-white rounded-lg card-shadow p-8 mb-8">
+                <div class="grid lg:grid-cols-2 gap-8">
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-4">Sistemul Public Spaniol</h3>
+                        <p class="text-gray-600 mb-6">Educația publică în Spania este gratuită și obligatorie pentru copiii cu vârste cuprinse între 6 și 16 ani. Multe școli publice din zona Marbella-Estepona oferă programe bilingve și sprijin special pentru elevii străini.</p>
+                        
+                        <h4 class="font-semibold text-lg mb-3 text-gray-800">Avantajele Școlii Publice</h4>
+                        <ul class="space-y-2 text-gray-700">
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                                <span><strong>Complet gratuită</strong> - nu există taxe școlare</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                                <span><strong>Integrare culturală</strong> - copilul învață limba și cultura spaniolă</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                                <span><strong>Programe bilingve</strong> - multe școli oferă educație în spaniolă și engleză</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                                <span><strong>Sprijin pentru străini</strong> - programe speciale pentru elevii non-nativi</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h4 class="font-semibold text-lg mb-3 text-gray-800">Structura Sistemului</h4>
+                        <div class="space-y-3">
+                            <div class="bg-blue-50 rounded p-4">
+                                <div class="font-medium text-blue-800">Educación Infantil</div>
+                                <div class="text-sm text-blue-600">3-6 ani | Opțională dar recomandată</div>
+                            </div>
+                            <div class="bg-green-50 rounded p-4">
+                                <div class="font-medium text-green-800">Educación Primaria</div>
+                                <div class="text-sm text-green-600">6-12 ani | Obligatorie</div>
+                            </div>
+                            <div class="bg-yellow-50 rounded p-4">
+                                <div class="font-medium text-yellow-800">Educación Secundaria (ESO)</div>
+                                <div class="text-sm text-yellow-600">12-16 ani | Obligatorie</div>
+                            </div>
+                            <div class="bg-purple-50 rounded p-4">
+                                <div class="font-medium text-purple-800">Bachillerato</div>
+                                <div class="text-sm text-purple-600">16-18 ani | Opțională</div>
+                            </div>
+                        </div>
+
+                        <h4 class="font-semibold text-lg mb-3 mt-6 text-gray-800">Sfaturi pentru Părinți</h4>
+                        <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4 rounded-r-lg">
+                            <ul class="text-sm text-yellow-800 space-y-1">
+                                <li>• Copiii se adaptează rapid la limba spaniolă</li>
+                                <li>• Există programe de sprijin lingvistic</li>
+                                <li>• Multe școli au profesori care vorbesc engleza</li>
+                                <li>• Integrarea socială este excelentă</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Școli Publice Specifice -->
+            <div class="bg-white rounded-lg card-shadow p-8">
+                <h3 class="text-2xl font-bold text-gray-800 mb-6">Școli Publice Recomandate în Estepona</h3>
+                
+                <div class="space-y-6">
+                    <div class="border-l-4 border-blue-500 pl-6">
+                        <h4 class="text-lg font-semibold text-gray-800 mb-2">Experiența Reală a Părinților</h4>
+                        <p class="text-gray-600 italic mb-2">"Copiii mei (3, 7 și 9 ani când au început) frecventează o școală publică în Estepona și experiența a fost minunată. După un an și jumătate, sunt complet integriți și vorbesc fluent spaniola."</p>
+                        <p class="text-sm text-gray-500">- Părinte expatriat din grupul Facebook</p>
+                    </div>
+
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div class="bg-gray-50 rounded-lg p-6">
+                            <h4 class="font-semibold text-gray-800 mb-3">Proces de Înscriere</h4>
+                            <ol class="space-y-2 text-sm text-gray-700">
+                                <li>1. Înregistrarea la Ayuntamiento (primăria locală)</li>
+                                <li>2. Empadronamiento (certificat de rezidență)</li>
+                                <li>3. Aplicarea online pe platforma educațională</li>
+                                <li>4. Alegerea școlilor (în ordinea preferinței)</li>
+                                <li>5. Așteptarea rezultatelor și confirmarea locului</li>
+                            </ol>
+                        </div>
+
+                        <div class="bg-gray-50 rounded-lg p-6">
+                            <h4 class="font-semibold text-gray-800 mb-3">Documente Necesare</h4>
+                            <ul class="space-y-2 text-sm text-gray-700">
+                                <li>• Certificat de naștere (tradus și apostilat)</li>
+                                <li>• Pașaport sau ID-ul copilului</li>
+                                <li>• Cartea de vaccinări</li>
+                                <li>• Certificat de empadronamiento</li>
+                                <li>• Rapoarte școlare anterioare</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Școli Private și Bilingve -->
+        <section id="private-schools" class="mb-16">
+            <h2 class="text-4xl font-bold text-gray-800 mb-8 flex items-center">
+                <i class="fas fa-users mr-3 text-green-600"></i>
+                Școli Private și Bilingve
+            </h2>
+
+            <div class="bg-white rounded-lg card-shadow p-8 mb-8">
+                <p class="text-gray-600 text-lg mb-8">Școlile private bilingve oferă o alternativă excelentă între sistemul public spaniol și școlile internaționale scumpe. Acestea combină curriculum-ul spaniol cu limba englezî și oferă o educație de calitate la prețuri mai accesibile.</p>
+
+                <div class="grid lg:grid-cols-2 gap-8">
+                    <!-- Colegio San José -->
+                    <div class="border rounded-lg p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-4">Colegio San José</h3>
+                        <div class="space-y-3">
+                            <div><strong>Locații:</strong> Estepona și San Pedro de Alcántara (Marbella)</div>
+                            <div><strong>Vârsta:</strong> 3-18 ani</div>
+                            <div><strong>Tip:</strong> Privată, laică, bilingvă</div>
+                            <div><strong>Curriculum:</strong> Spaniol + Englez</div>
+                            <div><strong>Caracteristici:</strong> Două campusuri, educație completă</div>
+                        </div>
+                        <div class="mt-4 p-3 bg-green-50 rounded">
+                            <p class="text-green-800 text-sm"><strong>Avantaj:</strong> Localizare excelentă în ambele orașe principale</p>
+                        </div>
+                    </div>
+
+                    <!-- Queens British Grammar School -->
+                    <div class="border rounded-lg p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-4">Queens British Grammar School</h3>
+                        <div class="space-y-3">
+                            <div><strong>Locația:</strong> Estepona</div>
+                            <div><strong>Curriculum:</strong> Britanic</div>
+                            <div><strong>Specialitate:</strong> Grammar school tradițional</div>
+                            <div><strong>Focus:</strong> Standarde academice ridicate</div>
+                        </div>
+                        <div class="mt-4 p-3 bg-blue-50 rounded">
+                            <p class="text-blue-800 text-sm"><strong>Ideal pentru:</strong> Familiile care doresc educație britanică tradițională</p>
+                        </div>
+                    </div>
+
+                    <!-- Laude San Pedro -->
+                    <div class="border rounded-lg p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-4">Laude San Pedro International School</h3>
+                        <div class="space-y-3">
+                            <div><strong>Locația:</strong> San Pedro de Alcántara</div>
+                            <div><strong>Vârsta:</strong> 3-18 ani</div>
+                            <div><strong>Curriculum:</strong> Britanic și IB</div>
+                            <div><strong>Programe:</strong> IGCSE, A-Levels, IB Diploma</div>
+                            <div><strong>Caracteristici:</strong> Curriculum dual de înaltă calitate</div>
+                        </div>
+                        <div class="mt-4 p-3 bg-purple-50 rounded">
+                            <p class="text-purple-800 text-sm"><strong>Plus:</strong> Opțiuni multiple de curriculum pentru flexibilitate maximă</p>
+                        </div>
+                    </div>
+
+                    <!-- NovaSchool -->
+                    <div class="border rounded-lg p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-4">NovaSchool</h3>
+                        <div class="space-y-3">
+                            <div><strong>Tip:</strong> Privată bilingvă</div>
+                            <div><strong>Metode:</strong> Pedagogie inovatoare</div>
+                            <div><strong>Limbi:</strong> Spaniolă și Engleză</div>
+                            <div><strong>Focus:</strong> Dezvoltare integrală</div>
+                        </div>
+                        <div class="mt-4 p-3 bg-orange-50 rounded">
+                            <p class="text-orange-800 text-sm"><strong>Caracteristică:</strong> Abordare modernă și inovatoare în educație</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Comparația între tipurile de școli -->
+            <div class="bg-white rounded-lg card-shadow p-8">
+                <h3 class="text-2xl font-bold text-gray-800 mb-6">Comparație Rapidă: Tipuri de Școli</h3>
+                
+                <div class="overflow-x-auto">
+                    <table class="w-full text-sm">
+                        <thead class="bg-gray-100">
+                            <tr>
+                                <th class="text-left p-4 font-semibold">Aspect</th>
+                                <th class="text-left p-4 font-semibold">Școli Publice</th>
+                                <th class="text-left p-4 font-semibold">Școli Private Bilingve</th>
+                                <th class="text-left p-4 font-semibold">Școli Internaționale</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-gray-200">
+                            <tr>
+                                <td class="p-4 font-medium">Cost anual</td>
+                                <td class="p-4 text-green-600">Gratuit</td>
+                                <td class="p-4 text-yellow-600">€3,000-€8,000</td>
+                                <td class="p-4 text-red-600">€5,000-€20,000+</td>
+                            </tr>
+                            <tr class="bg-gray-50">
+                                <td class="p-4 font-medium">Limba principală</td>
+                                <td class="p-4">Spaniolă</td>
+                                <td class="p-4">Spaniolă + Engleză</td>
+                                <td class="p-4">Engleză (sau altă limbă)</td>
+                            </tr>
+                            <tr>
+                                <td class="p-4 font-medium">Curriculum</td>
+                                <td class="p-4">Spaniol</td>
+                                <td class="p-4">Spaniol + Internațional</td>
+                                <td class="p-4">Britanic/American/IB</td>
+                            </tr>
+                            <tr class="bg-gray-50">
+                                <td class="p-4 font-medium">Integrare locală</td>
+                                <td class="p-4 text-green-600">Maximă</td>
+                                <td class="p-4 text-yellow-600">Bună</td>
+                                <td class="p-4 text-red-600">Limitată</td>
+                            </tr>
+                            <tr>
+                                <td class="p-4 font-medium">Flexibilitate internațională</td>
+                                <td class="p-4 text-red-600">Limitată</td>
+                                <td class="p-4 text-yellow-600">Moderată</td>
+                                <td class="p-4 text-green-600">Maximă</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- Costuri și Taxe -->
+        <section id="costs" class="mb-16">
+            <h2 class="text-4xl font-bold text-gray-800 mb-8 flex items-center">
+                <i class="fas fa-euro-sign mr-3 text-green-600"></i>
+                Costuri și Taxe Școlare
+            </h2>
+
+            <!-- Comparație costuri -->
+            <div class="bg-white rounded-lg card-shadow p-8 mb-8">
+                <h3 class="text-2xl font-bold text-gray-800 mb-6">Comparație Detaliată a Costurilor</h3>
+                
+                <div class="grid lg:grid-cols-3 gap-8 mb-8">
+                    <div class="bg-green-50 border border-green-200 rounded-lg p-6">
+                        <div class="flex items-center mb-4">
+                            <i class="fas fa-coins text-green-600 text-2xl mr-3"></i>
+                            <h4 class="text-lg font-semibold text-green-800">Școli Publice</h4>
+                        </div>
+                        <div class="text-3xl font-bold text-green-600 mb-2">€0</div>
+                        <p class="text-green-700 text-sm mb-4">Complet gratuite</p>
+                        <ul class="text-sm text-green-700 space-y-1">
+                            <li>• Fără taxe de școlarizare</li>
+                            <li>• Cărți gratuite (în majoritatea cazurilor)</li>
+                            <li>• Transport școlar disponibil</li>
+                            <li>• Mese școlare subvenționate</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-yellow-50 border border-yellow-200 rounded-lg p-6">
+                        <div class="flex items-center mb-4">
+                            <i class="fas fa-balance-scale text-yellow-600 text-2xl mr-3"></i>
+                            <h4 class="text-lg font-semibold text-yellow-800">Școli Private Bilingve</h4>
+                        </div>
+                        <div class="text-3xl font-bold text-yellow-600 mb-2">€3,000-€8,000</div>
+                        <p class="text-yellow-700 text-sm mb-4">Pe an</p>
+                        <ul class="text-sm text-yellow-700 space-y-1">
+                            <li>• Taxe moderate</li>
+                            <li>• Educație bilingvă</li>
+                            <li>• Facilități moderne</li>
+                            <li>• Activități extracurriculare</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-blue-50 border border-blue-200 rounded-lg p-6">
+                        <div class="flex items-center mb-4">
+                            <i class="fas fa-gem text-blue-600 text-2xl mr-3"></i>
+                            <h4 class="text-lg font-semibold text-blue-800">Școli Internaționale</h4>
+                        </div>
+                        <div class="text-3xl font-bold text-blue-600 mb-2">€5,000-€20,000+</div>
+                        <p class="text-blue-700 text-sm mb-4">Pe an</p>
+                        <ul class="text-sm text-blue-700 space-y-1">
+                            <li>• Educație premium</li>
+                            <li>• Curriculum internațional</li>
+                            <li>• Classe mici</li>
+                            <li>• Facilități de top</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Detalii specifice pentru școli -->
+                <div class="border-t pt-8">
+                    <h4 class="text-xl font-semibold text-gray-800 mb-6">Exemple Concrete de Taxe (2024/2025)</h4>
+                    
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div class="bg-gray-50 rounded-lg p-6">
+                            <h5 class="font-semibold text-gray-800 mb-4">The International School Estepona</h5>
+                            <div class="space-y-2 text-sm">
+                                <div class="flex justify-between">
+                                    <span>Taxa de înscriere (o singură dată):</span>
+                                    <span class="font-medium">€975</span>
+                                </div>
+                                <div class="flex justify-between">
+                                    <span>Taxa per trimestru:</span>
+                                    <span class="font-medium">€4,680</span>
+                                </div>
+                                <div class="flex justify-between">
+                                    <span>Total pe an (3 trimestre):</span>
+                                    <span class="font-medium">€14,040</span>
+                                </div>
+                                <div class="border-t pt-2 flex justify-between font-semibold">
+                                    <span>Total primul an:</span>
+                                    <span class="text-blue-600">€15,015</span>
+                                </div>
+                            </div>
+                            <p class="text-xs text-gray-600 mt-3">* Nu se oferă discount pentru frați la nivele Nursery/Pre-Reception</p>
+                        </div>
+
+                        <div class="bg-gray-50 rounded-lg p-6">
+                            <h5 class="font-semibold text-gray-800 mb-4">Estimări pentru Alte Școli</h5>
+                            <div class="space-y-3">
+                                <div class="flex justify-between text-sm">
+                                    <span>Aloha College:</span>
+                                    <span class="font-medium">€8,000-€15,000/an</span>
+                                </div>
+                                <div class="flex justify-between text-sm">
+                                    <span>Swans International:</span>
+                                    <span class="font-medium">€6,500-€12,000/an</span>
+                                </div>
+                                <div class="flex justify-between text-sm">
+                                    <span>Colegio San José:</span>
+                                    <span class="font-medium">€4,000-€7,000/an</span>
+                                </div>
+                                <div class="flex justify-between text-sm">
+                                    <span>Laude San Pedro:</span>
+                                    <span class="font-medium">€6,500-€8,000/an</span>
+                                </div>
+                            </div>
+                            <p class="text-xs text-gray-600 mt-3">* Prețurile variază în funcție de vârstă și program</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Costuri adiționale -->
+            <div class="bg-white rounded-lg card-shadow p-8 mb-8">
+                <h3 class="text-2xl font-bold text-gray-800 mb-6">Costuri Adiționale de Considerat</h3>
+                
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <h4 class="font-semibold text-lg mb-4 text-gray-800">Costuri Obligatorii</h4>
+                        <div class="space-y-3">
+                            <div class="flex justify-between items-center border-b pb-2">
+                                <span class="text-gray-700">Uniforme școlare</span>
+                                <span class="font-medium text-gray-800">€200-€500</span>
+                            </div>
+                            <div class="flex justify-between items-center border-b pb-2">
+                                <span class="text-gray-700">Cărți și materiale</span>
+                                <span class="font-medium text-gray-800">€150-€400</span>
+                            </div>
+                            <div class="flex justify-between items-center border-b pb-2">
+                                <span class="text-gray-700">Transport școlar</span>
+                                <span class="font-medium text-gray-800">€100-€200/lună</span>
+                            </div>
+                            <div class="flex justify-between items-center border-b pb-2">
+                                <span class="text-gray-700">Mese școlare</span>
+                                <span class="font-medium text-gray-800">€80-€150/lună</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h4 class="font-semibold text-lg mb-4 text-gray-800">Costuri Opționale</h4>
+                        <div class="space-y-3">
+                            <div class="flex justify-between items-center border-b pb-2">
+                                <span class="text-gray-700">Activități extracurriculare</span>
+                                <span class="font-medium text-gray-800">€50-€150/lună</span>
+                            </div>
+                            <div class="flex justify-between items-center border-b pb-2">
+                                <span class="text-gray-700">After-school clubs</span>
+                                <span class="font-medium text-gray-800">€60-€120/lună</span>
+                            </div>
+                            <div class="flex justify-between items-center border-b pb-2">
+                                <span class="text-gray-700">Summer School</span>
+                                <span class="font-medium text-gray-800">€150-€300/săptămână</span>
+                            </div>
+                            <div class="flex justify-between items-center border-b pb-2">
+                                <span class="text-gray-700">Excursii școlare</span>
+                                <span class="font-medium text-gray-800">€50-€200/excursie</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-8 p-6 bg-blue-50 rounded-lg">
+                    <h4 class="font-semibold text-blue-800 mb-3 flex items-center">
+                        <i class="fas fa-calculator mr-2"></i>
+                        Calculator Rapid pentru Buget
+                    </h4>
+                    <p class="text-blue-700 text-sm mb-4">Pentru o estimare realistă, adăugați la taxele școlare:</p>
+                    <ul class="text-blue-700 text-sm space-y-1">
+                        <li>• 10-15% pentru materiale și uniforme</li>
+                        <li>• 15-20% pentru transport și mese (dacă sunt necesare)</li>
+                        <li>• 5-10% pentru activități extracurriculare</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- CTA pentru buget -->
+            <div class="bg-gradient-to-r from-green-500 to-blue-500 text-white rounded-lg p-6">
+                <div class="flex items-center justify-between flex-wrap gap-4">
+                    <div>
+                        <h4 class="text-xl font-bold mb-2">Planificarea Bugetului pentru Educație</h4>
+                        <p class="opacity-90">Te ajut să calculezi costurile reale și să găsești cea mai bună opțiune în funcție de bugetul tău</p>
+                    </div>
+                    <a href="https://cal.com/andi-vee/business-consultation" target="_blank" class="bg-white text-green-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors pulse-animation">
+                        <i class="fas fa-euro-sign mr-2"></i>Consultație Buget Gratuită
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Procesul de Admitere -->
+        <section id="admission" class="mb-16">
+            <h2 class="text-4xl font-bold text-gray-800 mb-8 flex items-center">
+                <i class="fas fa-clipboard-list mr-3 text-purple-600"></i>
+                Procesul de Admitere
+            </h2>
+
+            <!-- Pentru Școli Internaționale -->
+            <div class="bg-white rounded-lg card-shadow p-8 mb-8">
+                <h3 class="text-2xl font-bold text-gray-800 mb-6">Admiterea la Școli Internaționale</h3>
+                
+                <div class="grid lg:grid-cols-2 gap-8">
+                    <div>
+                        <h4 class="font-semibold text-lg mb-4 text-gray-800">Pași de Urmat</h4>
+                        <div class="space-y-4">
+                            <div class="flex items-start">
+                                <div class="bg-blue-500 text-white rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold mr-4 mt-1">1</div>
+                                <div>
+                                    <div class="font-medium text-gray-800">Contactarea Școlii</div>
+                                    <div class="text-sm text-gray-600">Programați o vizită sau discuție cu echipa de admitere</div>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="bg-blue-500 text-white rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold mr-4 mt-1">2</div>
+                                <div>
+                                    <div class="font-medium text-gray-800">Completarea Aplicației</div>
+                                    <div class="text-sm text-gray-600">Formularul online sau fizic de aplicare</div>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="bg-blue-500 text-white rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold mr-4 mt-1">3</div>
+                                <div>
+                                    <div class="font-medium text-gray-800">Documentația</div>
+                                    <div class="text-sm text-gray-600">Submiterea tuturor documentelor necesare</div>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="bg-blue-500 text-white rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold mr-4 mt-1">4</div>
+                                <div>
+                                    <div class="font-medium text-gray-800">Evaluarea</div>
+                                    <div class="text-sm text-gray-600">Teste de competență linguistică și/sau interviu</div>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="bg-blue-500 text-white rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold mr-4 mt-1">5</div>
+                                <div>
+                                    <div class="font-medium text-gray-800">Acceptarea</div>
+                                    <div class="text-sm text-gray-600">Primirea confirmării și plata taxelor</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h4 class="font-semibold text-lg mb-4 text-gray-800">Documente Necesare</h4>
+                        <div class="bg-gray-50 rounded-lg p-6">
+                            <ul class="space-y-3">
+                                <li class="flex items-start">
+                                    <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+                                    <div>
+                                        <div class="font-medium text-gray-800">Formularul de aplicare</div>
+                                        <div class="text-sm text-gray-500">Completat și semnat</div>
+                                    </div>
+                                </li>
+                                
+                                <li class="flex items-start">
+                                    <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+                                    <div>
+                                        <div class="font-medium text-gray-800">Certificatul de naștere</div>
+                                        <div class="text-sm text-gray-500">Tradus și apostilat</div>
+                                    </div>
+                                </li>
+                                
+                                <li class="flex items-start">
+                                    <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+                                    <div>
+                                        <div class="font-medium text-gray-800">Pașaportul copilului și părinților</div>
+                                        <div class="text-sm text-gray-500">Copii certificate</div>
+                                    </div>
+                                </li>
+                                
+                                <li class="flex items-start">
+                                    <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+                                    <div>
+                                        <div class="font-medium text-gray-800">Rapoarte școlare recente</div>
+                                        <div class="text-sm text-gray-500">Ultimii 2 ani, traduse</div>
+                                    </div>
+                                </li>
+                                
+                                <li class="flex items-start">
+                                    <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+                                    <div>
+                                        <div class="font-medium text-gray-800">Carnet de vaccinări</div>
+                                        <div class="text-sm text-gray-500">Actualizat conform cerințelor spaniole</div>
+                                    </div>
+                                </li>
+                                
+                                <li class="flex items-start">
+                                    <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+                                    <div>
+                                        <div class="font-medium text-gray-800">Dovada competenței lingvistice</div>
+                                        <div class="text-sm text-gray-500">Dacă engleza nu este limba maternă</div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pentru Școli Publice -->
+            <div class="bg-white rounded-lg card-shadow p-8 mb-8">
+                <h3 class="text-2xl font-bold text-gray-800 mb-6">Admiterea la Școli Publice</h3>
+                
+                <div class="grid lg:grid-cols-2 gap-8">
+                    <div>
+                        <h4 class="font-semibold text-lg mb-4 text-gray-800">Cronologia Admiterii</h4>
+                        <div class="space-y-4">
+                            <div class="border-l-4 border-blue-500 pl-4">
+                                <div class="font-medium text-gray-800">Martie - Aprilie</div>
+                                <div class="text-sm text-gray-600">Deschiderea perioadei de aplicare online</div>
+                            </div>
+                            
+                            <div class="border-l-4 border-green-500 pl-4">
+                                <div class="font-medium text-gray-800">Mai</div>
+                                <div class="text-sm text-gray-600">Publicarea listelor cu locurile atribuite</div>
+                            </div>
+                            
+                            <div class="border-l-4 border-yellow-500 pl-4">
+                                <div class="font-medium text-gray-800">Iunie</div>
+                                <div class="text-sm text-gray-600">Perioada de confirmere și recursuri</div>
+                            </div>
+                            
+                            <div class="border-l-4 border-purple-500 pl-4">
+                                <div class="font-medium text-gray-800">Septembrie</div>
+                                <div class="text-sm text-gray-600">Începutul anului școlar</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h4 class="font-semibold text-lg mb-4 text-gray-800">Criterii de Prioritate</h4>
+                        <div class="space-y-3">
+                            <div class="flex items-center justify-between bg-green-50 p-3 rounded">
+                                <span class="text-sm text-green-800">Frați în aceeași școală</span>
+                                <span class="font-bold text-green-600">10 puncte</span>
+                            </div>
+                            
+                            <div class="flex items-center justify-between bg-blue-50 p-3 rounded">
+                                <span class="text-sm text-blue-800">Domiciliul în zona școlii</span>
+                                <span class="font-bold text-blue-600">5 puncte</span>
+                            </div>
+                            
+                            <div class="flex items-center justify-between bg-yellow-50 p-3 rounded">
+                                <span class="text-sm text-yellow-800">Părinți lucrează în zonă</span>
+                                <span class="font-bold text-yellow-600">3 puncte</span>
+                            </div>
+                            
+                            <div class="flex items-center justify-between bg-purple-50 p-3 rounded">
+                                <span class="text-sm text-purple-800">Familie numeroasă</span>
+                                <span class="font-bold text-purple-600">2 puncte</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Timeline și sfaturi -->
+            <div class="bg-white rounded-lg card-shadow p-8 mb-8">
+                <h3 class="text-2xl font-bold text-gray-800 mb-6">Timeline și Sfaturi pentru Planificare</h3>
+                
+                <div class="space-y-6">
+                    <div class="bg-red-50 border-l-4 border-red-500 p-6">
+                        <h4 class="font-semibold text-red-800 mb-2 flex items-center">
+                            <i class="fas fa-exclamation-triangle mr-2"></i>
+                            Foarte Important
+                        </h4>
+                        <p class="text-red-700 text-sm">Începeți procesul de aplicare cu cel puțin 6 luni înainte de data dorită de început. Locurile la școlile bune se ocupă rapid!</p>
+                    </div>
+                    
+                    <div class="grid md:grid-cols-3 gap-6">
+                        <div class="text-center">
+                            <div class="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                                <i class="fas fa-calendar-plus text-blue-600 text-2xl"></i>
+                            </div>
+                            <h4 class="font-semibold text-gray-800 mb-2">Cu 6+ luni înainte</h4>
+                            <p class="text-sm text-gray-600">Începeți cercetarea școlilor și vizitele. Pregătiți documentele necesare.</p>
+                        </div>
+                        
+                        <div class="text-center">
+                            <div class="bg-green-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                                <i class="fas fa-file-alt text-green-600 text-2xl"></i>
+                            </div>
+                            <h4 class="font-semibold text-gray-800 mb-2">Cu 3-4 luni înainte</h4>
+                            <p class="text-sm text-gray-600">Aplicați la școlile alese. Traduceți și apostilați documentele.</p>
+                        </div>
+                        
+                        <div class="text-center">
+                            <div class="bg-purple-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                                <i class="fas fa-handshake text-purple-600 text-2xl"></i>
+                            </div>
+                            <h4 class="font-semibold text-gray-800 mb-2">Cu 1-2 luni înainte</h4>
+                            <p class="text-sm text-gray-600">Finalizați acceptarea, plătiți taxele și pregătiți uniformele.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CTA pentru admitere -->
+            <div class="bg-purple-50 border border-purple-200 rounded-lg p-6">
+                <div class="flex items-center justify-between flex-wrap gap-4">
+                    <div class="flex items-center">
+                        <div class="bg-purple-100 rounded-full p-3 mr-4">
+                            <i class="fas fa-hands-helping text-purple-600 text-xl"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-lg font-semibold text-purple-800">Suport complet în procesul de admitere</h4>
+                            <p class="text-sm text-purple-600">De la documentele necesare până la însoțirea la interviuri - te ajut în fiecare pas</p>
+                        </div>
+                    </div>
+                    <a href="https://wa.me/34642912879?text=Salut%20Andi,%20am%20nevoie%20de%20ajutor%20cu%20procesul%20de%20admitere%20la%20scoli" target="_blank" class="bg-purple-600 hover:bg-purple-700 text-white px-6 py-2 rounded-lg font-medium transition-colors duration-200">
+                        <i class="fab fa-whatsapp mr-2"></i>Ajutor cu Admiterea
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sfaturi Practice -->
+        <section id="practical-tips" class="mb-16">
+            <h2 class="text-4xl font-bold text-gray-800 mb-8 flex items-center">
+                <i class="fas fa-lightbulb mr-3 text-yellow-500"></i>
+                Sfaturi Practice pentru Părinți
+            </h2>
+
+            <div class="grid lg:grid-cols-2 gap-8 mb-8">
+                <!-- Alegerea școlii potrivite -->
+                <div class="bg-white rounded-lg card-shadow p-8">
+                    <h3 class="text-xl font-bold text-gray-800 mb-6 flex items-center">
+                        <i class="fas fa-search mr-2 text-blue-600"></i>
+                        Cum să Alegeți Școala Potrivită
+                    </h3>
+                    
+                    <div class="space-y-4">
+                        <div class="border-l-4 border-blue-500 pl-4">
+                            <h4 class="font-semibold text-gray-800 mb-1">Evaluați planurile pe termen lung</h4>
+                            <p class="text-sm text-gray-600">Cât timp plănuiți să rămâneți în Spania? Vă veți întoarce în țara de origine?</p>
+                        </div>
+                        
+                        <div class="border-l-4 border-green-500 pl-4">
+                            <h4 class="font-semibold text-gray-800 mb-1">Considerați competența lingvistică</h4>
+                            <p class="text-sm text-gray-600">Ce nivel de spaniolă/engleză are copilul? Cât de repede se adaptează la limbi noi?</p>
+                        </div>
+                        
+                        <div class="border-l-4 border-purple-500 pl-4">
+                            <h4 class="font-semibold text-gray-800 mb-1">Analizați bugetul familiei</h4>
+                            <p class="text-sm text-gray-600">Nu uitați de costurile adiționale: transport, uniforme, activități.</p>
+                        </div>
+                        
+                        <div class="border-l-4 border-red-500 pl-4">
+                            <h4 class="font-semibold text-gray-800 mb-1">Vizitați școlile personal</h4>
+                            <p class="text-sm text-gray-600">Programați vizite pentru a simți atmosfera și a vorbi cu profesorii.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pregătirea copilului -->
+                <div class="bg-white rounded-lg card-shadow p-8">
+                    <h3 class="text-xl font-bold text-gray-800 mb-6 flex items-center">
+                        <i class="fas fa-child mr-2 text-green-600"></i>
+                        Pregătirea Copilului pentru Tranziție
+                    </h3>
+                    
+                    <div class="space-y-4">
+                        <div class="bg-blue-50 rounded-lg p-4">
+                            <h4 class="font-semibold text-blue-800 mb-2">Pentru școala spaniolă</h4>
+                            <ul class="text-sm text-blue-700 space-y-1">
+                                <li>• Începeți lecțiile de spaniolă cu câteva luni înainte</li>
+                                <li>• Utilizați aplicații și desenele animate în spaniolă</li>
+                                <li>• Conectați-vă cu alte familii expatriate</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="bg-green-50 rounded-lg p-4">
+                            <h4 class="font-semibold text-green-800 mb-2">Pentru școala internațională</h4>
+                            <ul class="text-sm text-green-700 space-y-1">
+                                <li>• Asigurați-vă că engleza copilului este la nivel</li>
+                                <li>• Familirizați-vă cu curriculum-ul britanic/american</li>
+                                <li>• Pregătiți-vă pentru diferențele culturale</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="bg-yellow-50 rounded-lg p-4">
+                            <h4 class="font-semibold text-yellow-800 mb-2">În general</h4>
+                            <ul class="text-sm text-yellow-700 space-y-1">
+                                <li>• Explicați copilului schimbarea și aventura</li>
+                                <li>• Mențineți rutinele familiare cât mai mult</li>
+                                <li>• Fiți răbdători cu perioada de adaptare</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Integrarea și adaptarea -->
+            <div class="bg-white rounded-lg card-shadow p-8 mb-8">
+                <h3 class="text-2xl font-bold text-gray-800 mb-6">Integrarea și Adaptarea</h3>
+                
+                <div class="grid md:grid-cols-3 gap-6">
+                    <div>
+                        <h4 class="font-semibold text-lg mb-4 text-gray-800 flex items-center">
+                            <i class="fas fa-clock mr-2 text-blue-600"></i>
+                            Primul Trimestru
+                        </h4>
+                        <ul class="space-y-2 text-sm text-gray-700">
+                            <li>• Perioada de adaptare normală</li>
+                            <li>• Posibile dificultăți lingvistice</li>
+                            <li>• Importanța rutinei zilnice</li>
+                            <li>• Comunicarea frecventă cu profesorii</li>
+                            <li>• Răbdare și încurajare</li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h4 class="font-semibold text-lg mb-4 text-gray-800 flex items-center">
+                            <i class="fas fa-chart-line mr-2 text-green-600"></i>
+                            Al Doilea Trimestru
+                        </h4>
+                        <ul class="space-y-2 text-sm text-gray-700">
+                            <li>• Îmbunătățirea limbii</li>
+                            <li>• Primele prietenii</li>
+                            <li>• Participarea la activități</li>
+                            <li>• Creșterea încrederii</li>
+                            <li>• Stabilizarea rutinei</li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h4 class="font-semibold text-lg mb-4 text-gray-800 flex items-center">
+                            <i class="fas fa-star mr-2 text-yellow-600"></i>
+                            Al Treilea Trimestru
+                        </h4>
+                        <ul class="space-y-2 text-sm text-gray-700">
+                            <li>• Integrare completă</li>
+                            <li>• Fluență în limba de instruire</li>
+                            <li>• Prietenii stabile</li>
+                            <li>• Rezultate academice normale</li>
+                            <li>• Sentimentul de "acasă"</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Resurse și sprijin -->
+            <div class="bg-white rounded-lg card-shadow p-8 mb-8">
+                <h3 class="text-2xl font-bold text-gray-800 mb-6">Resurse și Sprijin pentru Familii</h3>
+                
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <h4 class="font-semibold text-lg mb-4 text-gray-800">Comunități Online</h4>
+                        <div class="space-y-3">
+                            <div class="bg-blue-50 rounded-lg p-4">
+                                <div class="font-medium text-blue-800 mb-1">Grupuri Facebook</div>
+                                <ul class="text-sm text-blue-700 space-y-1">
+                                    <li>• "Expats in Marbella"</li>
+                                    <li>• "Families in Costa del Sol"</li>
+                                    <li>• "British Expats Spain"</li>
+                                    <li>• "International Schools Spain"</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="bg-green-50 rounded-lg p-4">
+                                <div class="font-medium text-green-800 mb-1">Forumuri și Website-uri</div>
+                                <ul class="text-sm text-green-700 space-y-1">
+                                    <li>• Expat.com - secțiunea Spania</li>
+                                    <li>• TheLocal.es</li>
+                                    <li>• International Schools Database</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <h4 class="font-semibold text-lg mb-4 text-gray-800">Servicii de Sprijin</h4>
+                        <div class="space-y-3">
+                            <div class="bg-purple-50 rounded-lg p-4">
+                                <div class="font-medium text-purple-800 mb-1">Servicii de Relocare</div>
+                                <ul class="text-sm text-purple-700 space-y-1">
+                                    <li>• Asistență pentru înscrierea la școli</li>
+                                    <li>• Traduceri și apostilari</li>
+                                    <li>• Orientare în sistemul educațional</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="bg-orange-50 rounded-lg p-4">
+                                <div class="font-medium text-orange-800 mb-1">Tutore și Meditații</div>
+                                <ul class="text-sm text-orange-700 space-y-1">
+                                    <li>• Profesori privați de spaniolă</li>
+                                    <li>• Sprijin academic în tranziție</li>
+                                    <li>• Centre de limbi străine</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CTA pentru sfaturi practice -->
+            <div class="cta-gradient text-white rounded-lg p-6 text-center">
+                <h4 class="text-xl font-bold mb-3">Experiența unui părinte expatriat la dispoziția ta</h4>
+                <p class="mb-4 opacity-90">Am trecut prin această experiență cu propriii copii și știu toate provocările. Te pot ghida să eviți greșelile comune.</p>
+                <div class="flex flex-col sm:flex-row gap-3 justify-center">
+                    <a href="https://cal.com/andi-vee/business-consultation" target="_blank" class="bg-white text-green-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200">
+                        <i class="fas fa-user-friends mr-2"></i>Vorbește cu un Părinte Expat
+                    </a>
+                    <a href="https://wa.me/34642912879?text=Salut%20Andi,%20as%20vrea%20sa%20discutam%20despre%20adaptarea%20copilului%20la%20scoala" target="_blank" class="bg-green-800 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-900 transition-colors duration-200">
+                        <i class="fab fa-whatsapp mr-2"></i>Întrebări Rapide
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contacte și Resurse -->
+        <section id="contacts" class="mb-16">
+            <h2 class="text-4xl font-bold text-gray-800 mb-8 flex items-center">
+                <i class="fas fa-address-book mr-3 text-indigo-600"></i>
+                Contacte și Resurse Utile
+            </h2>
+
+            <!-- Expert de relocare -->
+            <div class="bg-gradient-to-r from-green-600 to-blue-600 text-white rounded-lg p-8 mb-8">
+                <div class="text-center mb-8">
+                    <div class="bg-white bg-opacity-20 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-user-tie text-3xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-2">Andi Vasluianu</h3>
+                    <p class="text-lg opacity-90 mb-1">Expert în Relocarea Familiilor</p>
+                    <p class="opacity-75">Real Marbella Estate</p>
+                </div>
+                
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <h4 class="font-semibold text-lg mb-4">Servicii Complete de Relocare</h4>
+                        <ul class="space-y-2 text-sm opacity-90">
+                            <li>✓ Consultanță pentru alegerea școlii potrivite</li>
+                            <li>✓ Însoțire la vizitele școlare</li>
+                            <li>✓ Asistență cu documentele și traducerile</li>
+                            <li>✓ Sprijin în procesul de admitere</li>
+                            <li>✓ Găsirea locuinței în zona școlii dorite</li>
+                            <li>✓ Orientare completă în sistemul spaniol</li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h4 class="font-semibold text-lg mb-4">Cum să mă contactezi</h4>
+                        <div class="space-y-4">
+                            <a href="https://wa.me/34642912879" target="_blank" class="flex items-center bg-white bg-opacity-20 rounded-lg p-4 hover:bg-opacity-30 transition-colors">
+                                <i class="fab fa-whatsapp text-2xl mr-4"></i>
+                                <div>
+                                    <div class="font-semibold">WhatsApp</div>
+                                    <div class="text-sm opacity-75">+34 642 912 879</div>
+                                </div>
+                            </a>
+                            
+                            <a href="tel:+34642912879" class="flex items-center bg-white bg-opacity-20 rounded-lg p-4 hover:bg-opacity-30 transition-colors">
+                                <i class="fas fa-phone text-2xl mr-4"></i>
+                                <div>
+                                    <div class="font-semibold">Telefon</div>
+                                    <div class="text-sm opacity-75">+34 642 912 879</div>
+                                </div>
+                            </a>
+                            
+                            <a href="https://cal.com/andi-vee/business-consultation" target="_blank" class="flex items-center bg-white bg-opacity-20 rounded-lg p-4 hover:bg-opacity-30 transition-colors">
+                                <i class="fas fa-calendar-alt text-2xl mr-4"></i>
+                                <div>
+                                    <div class="font-semibold">Programează Online</div>
+                                    <div class="text-sm opacity-75">Consultație gratuită</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contacte școli -->
+            <div class="bg-white rounded-lg card-shadow p-8 mb-8">
+                <h3 class="text-2xl font-bold text-gray-800 mb-6">Contacte Directe Școli</h3>
+                
+                <div class="grid lg:grid-cols-2 gap-8">
+                    <div>
+                        <h4 class="font-semibold text-lg mb-4 text-gray-800">Școli Internaționale</h4>
+                        <div class="space-y-4">
+                            <div class="border rounded-lg p-4">
+                                <div class="font-medium text-gray-800 mb-2">The International School Estepona</div>
+                                <div class="text-sm text-gray-600 space-y-1">
+                                    <div><i class="fas fa-phone mr-2"></i>+34 952 88 47 89</div>
+                                    <div><i class="fas fa-fax mr-2"></i>+34 952 88 69 26</div>
+                                    <div><i class="fas fa-globe mr-2"></i>marbellaschool.com</div>
+                                    <div><i class="fas fa-map-marker-alt mr-2"></i>El Paraiso, Estepona</div>
+                                </div>
+                            </div>
+                            
+                            <div class="border rounded-lg p-4">
+                                <div class="font-medium text-gray-800 mb-2">The British International School of Marbella</div>
+                                <div class="text-sm text-gray-600 space-y-1">
+                                    <div><i class="fas fa-phone mr-2"></i>+34 952 779 264</div>
+                                    <div><i class="fas fa-globe mr-2"></i>bsm.org.es</div>
+                                    <div><i class="fas fa-map-marker-alt mr-2"></i>Marbella</div>
+                                </div>
+                            </div>
+                            
+                            <div class="border rounded-lg p-4">
+                                <div class="font-medium text-gray-800 mb-2">Swans International School</div>
+                                <div class="text-sm text-gray-600 space-y-1">
+                                    <div><i class="fas fa-globe mr-2"></i>swansschool.com</div>
+                                    <div><i class="fas fa-map-marker-alt mr-2"></i>Marbella (mai multe campusuri)</div>
+                                </div>
+                            </div>
+                            
+                            <div class="border rounded-lg p-4">
+                                <div class="font-medium text-gray-800 mb-2">Aloha College</div>
+                                <div class="text-sm text-gray-600 space-y-1">
+                                    <div><i class="fas fa-globe mr-2"></i>aloha-college.com</div>
+                                    <div><i class="fas fa-map-marker-alt mr-2"></i>Marbella</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h4 class="font-semibold text-lg mb-4 text-gray-800">Autorități Educaționale</h4>
+                        <div class="space-y-4">
+                            <div class="border rounded-lg p-4">
+                                <div class="font-medium text-gray-800 mb-2">Consejería de Educación - Málaga</div>
+                                <div class="text-sm text-gray-600 space-y-1">
+                                    <div><i class="fas fa-phone mr-2"></i>+34 951 038 800</div>
+                                    <div><i class="fas fa-globe mr-2"></i>juntadeandalucia.es</div>
+                                    <div><i class="fas fa-info-circle mr-2"></i>Informații despre înscrierea în școlile publice</div>
+                                </div>
+                            </div>
+                            
+                            <div class="border rounded-lg p-4">
+                                <div class="font-medium text-gray-800 mb-2">Ayuntamiento de Marbella</div>
+                                <div class="text-sm text-gray-600 space-y-1">
+                                    <div><i class="fas fa-phone mr-2"></i>+34 952 768 100</div>
+                                    <div><i class="fas fa-globe mr-2"></i>marbella.es</div>
+                                    <div><i class="fas fa-info-circle mr-2"></i>Servicii pentru cetățeni și empadronamiento</div>
+                                </div>
+                            </div>
+                            
+                            <div class="border rounded-lg p-4">
+                                <div class="font-medium text-gray-800 mb-2">Ayuntamiento de Estepona</div>
+                                <div class="text-sm text-gray-600 space-y-1">
+                                    <div><i class="fas fa-phone mr-2"></i>+34 952 809 100</div>
+                                    <div><i class="fas fa-globe mr-2"></i>estepona.es</div>
+                                    <div><i class="fas fa-info-circle mr-2"></i>Informații locale și servicii pentru rezidenti</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Resurse online -->
+            <div class="bg-white rounded-lg card-shadow p-8 mb-8">
+                <h3 class="text-2xl font-bold text-gray-800 mb-6">Resurse Online Utile</h3>
+                
+                <div class="grid md:grid-cols-3 gap-6">
+                    <div>
+                        <h4 class="font-semibold text-lg mb-3 text-blue-600">Platforme Educaționale</h4>
+                        <ul class="space-y-2 text-sm text-gray-700">
+                            <li><a href="#" class="text-blue-600 hover:underline">• International Schools Database</a></li>
+                            <li><a href="#" class="text-blue-600 hover:underline">• The Good Schools Guide</a></li>
+                            <li><a href="#" class="text-blue-600 hover:underline">• Schools Compared</a></li>
+                            <li><a href="#" class="text-blue-600 hover:underline">• Education in Spain</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h4 class="font-semibold text-lg mb-3 text-green-600">Comunități Expat</h4>
+                        <ul class="space-y-2 text-sm text-gray-700">
+                            <li><a href="#" class="text-green-600 hover:underline">• Expat.com Spain</a></li>
+                            <li><a href="#" class="text-green-600 hover:underline">• InterNations Marbella</a></li>
+                            <li><a href="#" class="text-green-600 hover:underline">• Marbella Family Network</a></li>
+                            <li><a href="#" class="text-green-600 hover:underline">• Costa del Sol Families</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h4 class="font-semibold text-lg mb-3 text-purple-600">Servicii de Sprijin</h4>
+                        <ul class="space-y-2 text-sm text-gray-700">
+                            <li><a href="#" class="text-purple-600 hover:underline">• Spain Relocation Services</a></li>
+                            <li><a href="#" class="text-purple-600 hover:underline">• Educational Consultants</a></li>
+                            <li><a href="#" class="text-purple-600 hover:underline">• Translation Services</a></li>
+                            <li><a href="#" class="text-purple-600 hover:underline">• Legal Assistance</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Aplicații mobile utile -->
+            <div class="bg-white rounded-lg card-shadow p-8">
+                <h3 class="text-2xl font-bold text-gray-800 mb-6">Aplicații Mobile Recomandate</h3>
+                
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <h4 class="font-semibold text-lg mb-4 text-gray-800">Pentru Învățarea Limbii</h4>
+                        <div class="space-y-3">
+                            <div class="flex items-center justify-between border rounded-lg p-3">
+                                <div>
+                                    <div class="font-medium text-gray-800">Duolingo</div>
+                                    <div class="text-sm text-gray-600">Învățare spaniolă pentru copii</div>
+                                </div>
+                                <div class="text-green-600 font-bold">Gratuit</div>
+                            </div>
+                            
+                            <div class="flex items-center justify-between border rounded-lg p-3">
+                                <div>
+                                    <div class="font-medium text-gray-800">Babbel Kids</div>
+                                    <div class="text-sm text-gray-600">Specializat pentru copii</div>
+                                </div>
+                                <div class="text-yellow-600 font-bold">Premium</div>
+                            </div>
+                            
+                            <div class="flex items-center justify-between border rounded-lg p-3">
+                                <div>
+                                    <div class="font-medium text-gray-800">Lingokids</div>
+                                    <div class="text-sm text-gray-600">Engleza pentru vorbitorii de spaniolă</div>
+                                </div>
+                                <div class="text-blue-600 font-bold">Freemium</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h4 class="font-semibold text-lg mb-4 text-gray-800">Pentru Părinți</h4>
+                        <div class="space-y-3">
+                            <div class="flex items-center justify-between border rounded-lg p-3">
+                                <div>
+                                    <div class="font-medium text-gray-800">Google Translate</div>
+                                    <div class="text-sm text-gray-600">Traduceri rapide</div>
+                                </div>
+                                <div class="text-green-600 font-bold">Gratuit</div>
+                            </div>
+                            
+                            <div class="flex items-center justify-between border rounded-lg p-3">
+                                <div>
+                                    <div class="font-medium text-gray-800">Moovit</div>
+                                    <div class="text-sm text-gray-600">Transport public</div>
+                                </div>
+                                <div class="text-green-600 font-bold">Gratuit</div>
+                            </div>
+                            
+                            <div class="flex items-center justify-between border rounded-lg p-3">
+                                <div>
+                                    <div class="font-medium text-gray-800">Meetup</div>
+                                    <div class="text-sm text-gray-600">Evenimente pentru familii expat</div>
+                                </div>
+                                <div class="text-green-600 font-bold">Gratuit</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Concluzie -->
+        <section class="mb-12">
+            <div class="bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg p-12 text-center">
+                <h2 class="text-3xl font-bold mb-6">Succes în Noua Aventură Educațională!</h2>
+                <p class="text-xl mb-8 opacity-90">Marbella și Estepona oferă oportunități educaționale excelente pentru copiii dvs. Cu planificare corespunzătoare și informațiile din acest ghid, veți face alegerea perfectă pentru familia dvs.</p>
+                
+                <div class="grid md:grid-cols-3 gap-8 mt-8 mb-8">
+                    <div class="text-center">
+                        <div class="bg-white bg-opacity-20 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-heart text-2xl"></i>
+                        </div>
+                        <div class="font-semibold">Mediu Sigur și Prietenos</div>
+                        <div class="text-sm opacity-75">Pentru dezvoltarea copiilor</div>
+                    </div>
+                    
+                    <div class="text-center">
+                        <div class="bg-white bg-opacity-20 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-globe text-2xl"></i>
+                        </div>
+                        <div class="font-semibold">Educație de Clasă Mondială</div>
+                        <div class="text-sm opacity-75">Standarde internaționale</div>
+                    </div>
+                    
+                    <div class="text-center">
+                        <div class="bg-white bg-opacity-20 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-users text-2xl"></i>
+                        </div>
+                        <div class="font-semibold">Comunitate Solidară</div>
+                        <div class="text-sm opacity-75">Familii din întreaga lume</div>
+                    </div>
+                </div>
+                
+                <!-- CTA Final -->
+                <div class="bg-white bg-opacity-10 rounded-lg p-6">
+                    <h3 class="text-xl font-bold mb-3">Să începem împreună această aventură!</h3>
+                    <p class="mb-4 opacity-90">Contactează-mă pentru o consultație gratuită și să discutăm despre cea mai bună opțiune educațională pentru familia ta.</p>
+                    <div class="flex flex-col sm:flex-row gap-3 justify-center">
+                        <a href="https://cal.com/andi-vee/business-consultation" target="_blank" class="bg-white text-blue-600 px-8 py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors duration-200 pulse-animation">
+                            <i class="fas fa-calendar-check mr-2"></i>Consultație Gratuită
+                        </a>
+                        <a href="https://wa.me/34642912879?text=Salut%20Andi,%20am%20citit%20ghidul%20si%20as%20vrea%20sa%20discutam%20despre%20relocarea%20familiei%20in%20Marbella" target="_blank" class="bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-lg font-bold transition-colors duration-200">
+                            <i class="fab fa-whatsapp mr-2"></i>WhatsApp Direct
+                        </a>
+                    </div>
+                </div>
+                
+                <p class="text-sm mt-8 opacity-75">Acest ghid a fost compilat în 2024 și se bazează pe informații actualizate de la școli și autorități. Pentru cele mai recente detalii, contactați direct școlile de interes.</p>
+            </div>
+        </section>
     </div>
-  </div>
 
-</div>
-
-<!-- Footer -->
-<footer class="w3-container w3-center w3-padding-16 w3-light-grey">
-  <p>&copy; 2025 Facilo.es. Todos los derechos reservados.</p>
-</footer>
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-8 mb-6">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Real Marbella Estate</h3>
+                    <p class="text-gray-300 mb-4">Expertiza în relocarea familiilor și găsirea locuinței perfecte în zona Marbella-Estepona</p>
+                    <div class="flex space-x-4">
+                        <a href="https://wa.me/34642912879" target="_blank" class="text-green-400 hover:text-green-300">
+                            <i class="fab fa-whatsapp text-xl"></i>
+                        </a>
+                        <a href="tel:+34642912879" class="text-blue-400 hover:text-blue-300">
+                            <i class="fas fa-phone text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Contact Andi Vasluianu</h4>
+                    <div class="space-y-2 text-gray-300">
+                        <div><i class="fas fa-phone mr-2"></i>+34 642 912 879</div>
+                        <div><i class="fab fa-whatsapp mr-2"></i>WhatsApp disponibil</div>
+                        <div><i class="fas fa-calendar mr-2"></i>Consultații online</div>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 pt-6 text-center">
+                <p class="text-gray-300">© 2024 Ghidul Școlilor din Marbella și Estepona pentru Familiile de Expatriați</p>
+                <p class="text-sm text-gray-400 mt-2">Realizat cu experiența și expertiza Real Marbella Estate</p>
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html>
+    <script id="html_badge_script1">
+        window.__genspark_remove_badge_link = "https://www.genspark.ai/api/html_badge/" +
+            "remove_badge?token=To%2FBnjzloZ3UfQdcSaYfDriFQI1WUDKP5mpamrcSuqN6XabVDDBHsabcdwO2W8MLkC8EtgYCoutYWYeEfeGnJVnXjiaAz7KNW1%2F1qvslb67SKCZqv2YzYc3urCBIqNvQ26%2FaHNm8hnpDLqZjew2XTP%2FRa5uGkfTMarVjYqRLJcqvHQE9fm7UDlBtePJRrconDX5ytYBF5V2r1rOfMg5nn972kO7fDFUOFCuEE5faU9WBQjGYXWh0ObW4C5WA9GtKoqXeTTIA2FfyzKMooiftzVc8dMMS7wZ1D1YWoUHTNrI4kFU7lqv0k8R%2F2O4Foh4et%2F9SdeleqM3w7mnjlVSrvbpEq0yn7M7sq%2F5k7lMZgefc3MiOA%2F0cdV60lRPU0U4MjocIw%2Fry61qVg5qGv1A62hVL9YPn2SRtLXqzIQFWMfe9Wc5frWpWL9N9A6kAkVa9JM0jwf5e0W%2Fn55asOXpdkCZcXQvBmeiUa1mFr5D8eBcsQEZjrT5AsDalEx1%2BKCNuoeord1Ur32p7w50ojMV0lzJalVUWBZDGYWbw3CMMUNI%3D";
+        window.__genspark_locale = "en-US";
+        window.__genspark_token = "To/BnjzloZ3UfQdcSaYfDriFQI1WUDKP5mpamrcSuqN6XabVDDBHsabcdwO2W8MLkC8EtgYCoutYWYeEfeGnJVnXjiaAz7KNW1/1qvslb67SKCZqv2YzYc3urCBIqNvQ26/aHNm8hnpDLqZjew2XTP/Ra5uGkfTMarVjYqRLJcqvHQE9fm7UDlBtePJRrconDX5ytYBF5V2r1rOfMg5nn972kO7fDFUOFCuEE5faU9WBQjGYXWh0ObW4C5WA9GtKoqXeTTIA2FfyzKMooiftzVc8dMMS7wZ1D1YWoUHTNrI4kFU7lqv0k8R/2O4Foh4et/9SdeleqM3w7mnjlVSrvbpEq0yn7M7sq/5k7lMZgefc3MiOA/0cdV60lRPU0U4MjocIw/ry61qVg5qGv1A62hVL9YPn2SRtLXqzIQFWMfe9Wc5frWpWL9N9A6kAkVa9JM0jwf5e0W/n55asOXpdkCZcXQvBmeiUa1mFr5D8eBcsQEZjrT5AsDalEx1+KCNuoeord1Ur32p7w50ojMV0lzJalVUWBZDGYWbw3CMMUNI=";
+    </script>
+    
+        <script id="html_badge_script2" src="https://www.genspark.ai/html_badge.js"></script>
+        
+    <script id="html_notice_dialog_script" src="https://www.genspark.ai/notice_dialog.js"></script>
+    
